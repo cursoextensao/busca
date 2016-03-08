@@ -1,5 +1,7 @@
 Universidade Federal do Piauí
+
 Curso de Extensão em Algoritmos Genéticos de Segunda Geração
+
 Autor: Sávio Mota Carneiro
 
 # busca
