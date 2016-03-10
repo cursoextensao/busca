@@ -6,8 +6,8 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import br.com.smc.busca.Universo;
 import br.com.smc.busca.blackbox.BlackBox;
+import br.com.smc.busca.universo.Universo;
 import br.com.smc.busca.util.QuantidadeDeUnsComparator;
 import br.com.smc.busca.util.Util;
 
@@ -17,7 +17,7 @@ import br.com.smc.busca.util.Util;
  */
 public class Gulosa implements Busca {
 	private static final Comparator<String> COMPARATOR = new QuantidadeDeUnsComparator();
-	private static final Logger LOG = Logger.getLogger("br.com.smc.busca.util");
+	private static final Logger LOG = Logger.getLogger("busca");
 	
 	private Universo universo;
 	

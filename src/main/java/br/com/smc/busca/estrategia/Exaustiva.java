@@ -2,8 +2,8 @@ package br.com.smc.busca.estrategia;
 
 import java.util.List;
 
-import br.com.smc.busca.Universo;
 import br.com.smc.busca.blackbox.BlackBox;
+import br.com.smc.busca.universo.Universo;
 
 /**
  * @author savio

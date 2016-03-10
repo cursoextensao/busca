@@ -9,7 +9,7 @@ import br.com.smc.busca.util.Util;
  *
  */
 public class OneMax implements BlackBox {
-	private Logger LOG = Logger.getLogger("br.com.smc.busca.util");
+	private Logger LOG = Logger.getLogger("busca");
 	private int NUMERO_ACESSOS = 0;
 	
 	@Override

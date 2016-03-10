@@ -1,4 +1,4 @@
-package br.com.smc.busca;
+package br.com.smc.busca.universo;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -15,18 +15,18 @@ import br.com.smc.busca.util.Util;
  * @author savio
  *
  */
-public class Universo {
+public class UniversoGuloso implements Universo{
 	private int numeroBits;
 	private Set<String> solucoes = new HashSet<>();
 	
-	private Logger LOG = Logger.getLogger("br.com.smc.busca.util");
+	private Logger LOG = Logger.getLogger("busca");
 	private Random rand = new Random();
 
-	public Universo(int numeroBits) {
+	public UniversoGuloso(int numeroBits) {
 		this.numeroBits = numeroBits;
 	}
 	
-	public List<String> gerarSolucoes(String solucaoAtual, int quantidade) {
+	public List<String> gerarSolucoes(String solucaoAtual, Integer quantidade) {
 		List<String> solucoes = new ArrayList<>();
 		
 		for (int i = 0; i < quantidade; i++) {
